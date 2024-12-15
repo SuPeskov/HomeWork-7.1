@@ -45,7 +45,7 @@ a {
     justify-content: space-between;
 }
 .logo {
-    position: absolute;
+    position: relative;
     top: o;
     left: 0;
 }
@@ -119,9 +119,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     align-items: center;
-
     top: 150px;
 }
 .quote {
@@ -145,4 +143,27 @@ a {
     opacity: 0.5;
     font-style: italic;
     z-index: 1;
+}
+.collection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 246px;
+    height: 500px;
+    border: 1px;
+}
+.collectionTitle {
+    position: relative;
+    font-family: "Cormorant", sans-serif;
+    font-size: 40px;
+    font-weight: 400; 
+    text-align: center;
+    margin: 0;
+}
+.choice {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    top: 60px;
 }
