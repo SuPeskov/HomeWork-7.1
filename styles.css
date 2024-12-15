@@ -7,6 +7,11 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+main {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+}
 a {
     text-decoration: none;
     color: #151618;
@@ -108,4 +113,16 @@ a {
     font-size: 24px;
     font-weight: 400;
     z-index: 2;
+}
+.quote {
+    position: absolute;
+    width: 704px;
+    height: 96px;
+    top: 850px;
+    margin: auto;
+    font-family: "Cormorant", sans-serif;
+    font-size: 40px;
+    font-weight: 400; 
+    font-style: italic;
+    text-align: center;
 }
