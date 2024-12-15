@@ -213,3 +213,63 @@ a {
     margin-top: 10;
     color: #151618;
 }
+.teaBlog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 230px;
+    gap: 0px;
+    padding-top: 150px;
+}
+.blogContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    padding-top: 60px;
+}
+.blog {
+    width: 542px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 180px;
+    padding-left: 20px;
+}
+.textOfBlog {
+    position: relative;
+    font-family: "Cormorant", sans-serif;
+    font-size: 24px;
+    font-weight: 400; 
+    margin: 0;
+    color: #151618;  
+}
+.author {
+    position: absolute;
+    margin: 0;
+    padding-top: 96px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300; 
+    color: #151618;  
+}
+.goToBlog {
+    position: absolute;
+    padding-top: 162px;
+}
+.buttonBlog {
+    margin-top: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    width: 149px;
+    height: 51px;
+    background: #FFFFFF;
+}
