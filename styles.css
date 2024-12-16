@@ -163,6 +163,7 @@ a {
     text-align: center;
     margin: 0;
     color: #151618;
+    z-index: 2;
 }
 .choice {
     display: flex;
@@ -182,20 +183,24 @@ a {
     color: #151618;
 }
 .reviews {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*width: 1600px;*/
-    top: 230px;
+    width: 1600px;
+    top: 1601px;
     background-color: #F7F2EA;
+    /*opacity: 0.5;*/
+    z-index: 1;
     padding-top: 60px;
+    height: 337px;
 }
 .textContainer {
     width: 280px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 2;
 }
 .reviewsText {
     position: relative;
@@ -215,13 +220,12 @@ a {
     color: #151618;
 }
 .teaBlog {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 230px;
-    gap: 0px;
-    padding-top: 150px;
+    top: 2148px;
+    width: 1600px;
 }
 .blogContainer {
     position: relative;
