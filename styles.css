@@ -227,9 +227,40 @@ a {
     flex-direction: row;
     justify-content: space-between;
     width: 1150px;
-    padding-top: 60px;
+    height: 400px;
+    top: 60px;
 }
-.blog {
+.blog1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 542px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.blog2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 542px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.blog3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 542px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.blog4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 542px;
     height: 180px;
     display: flex;
@@ -268,7 +299,8 @@ a {
     color: #151618; 
 }
 .buttonBlog {
-    margin-top: 60px;
+    position: relative;
+    top: 120px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 400; 
