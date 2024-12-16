@@ -151,7 +151,6 @@ a {
     align-items: center;
     top: 246px;
     height: 500px;
-    border: 1px;
 }
 .collectionTitle {
     position: relative;
@@ -262,7 +261,11 @@ a {
 }
 .goToBlog {
     position: absolute;
-    padding-top: 162px;
+    top: 92%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300; 
+    color: #151618; 
 }
 .buttonBlog {
     margin-top: 60px;
@@ -272,4 +275,12 @@ a {
     width: 149px;
     height: 51px;
     background: #FFFFFF;
+    cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+}
+.buttonBlog:active {
+	background-color: #F7F2EA;
+    ;
 }
