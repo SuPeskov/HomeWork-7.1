@@ -323,7 +323,6 @@ a {
     position: absolute;
     display: flex;
     flex-direction: column;
-    text-align: center;
     width: 1600px;
     height: 418px;
     top: 2917px;
@@ -362,12 +361,16 @@ a {
 }
 .joinContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     position: relative;
     width: 580px;
     height: 118px;
     left: 820px;
-    top: 0;
+    top: 35px;
+}
+.layoutJoin {
+    display: flex;
+    justify-content: space-between;
 }
 .buttonJoin {
     position: relative;
@@ -394,11 +397,26 @@ a {
     border-bottom: 1px solid rgba(184, 181, 139, 1);
 }
 .join::placeholder {
+    position: relative;
+    top: 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 300; 
-    line-height: 0.2px;
     color: rgba(184, 181, 139, 1);
     padding-left: 15px;
     vertical-align: bottom;
+}
+.checkJoin {
+    display: block;
+    text-align: justify;
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300; 
+    line-height: 17.7px;
+    width: 560px; 
+}
+.boxJoin {
+    position: relative;
+    bottom: 18px;
 }
