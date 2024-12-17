@@ -142,8 +142,7 @@ a {
     height: 61px;
     left: 212px;
     top: -46px;
-    background: #f7f2ea;
-    opacity: 0.5;
+    background: rgba(247, 242, 234, 0.7);
     font-style: italic;
     z-index: 1;
 }
@@ -189,11 +188,9 @@ a {
     align-items: center;
     width: 1600px;
     top: 1601px;
-    background-color: #F7F2EA;
-    /*opacity: 0.5;*/
-    z-index: 1;
     padding-top: 60px;
     height: 337px;
+    background-color: rgba(247, 242, 234, 0.7);
 }
 .textContainer {
     width: 280px;
@@ -331,6 +328,6 @@ a {
     height: 418px;
     top: 2917px;
     margin: auto;
-    background-color: #F7F2EA;
+    background-color: rgba(247, 242, 234, 1);
     padding-top: 60px;
 }
