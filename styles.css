@@ -142,7 +142,7 @@ a {
     height: 61px;
     left: 212px;
     top: -46px;
-    background: rgba(247, 242, 234, 0.7);
+    background: rgba(247, 242, 234, 0.5);
     font-style: italic;
     z-index: 1;
 }
@@ -190,7 +190,7 @@ a {
     top: 1601px;
     padding-top: 60px;
     height: 337px;
-    background-color: rgba(247, 242, 234, 0.7);
+    background-color: rgba(247, 242, 234, 0.5);
 }
 .textContainer {
     width: 280px;
@@ -330,4 +330,34 @@ a {
     margin: auto;
     background-color: rgba(247, 242, 234, 1);
     padding-top: 60px;
+}
+.knowTitle {
+    position: relative;
+    font-family: "Cormorant", sans-serif;
+    font-size: 40px;
+    font-weight: 400; 
+    text-align: left;
+    left: 200px;
+    top: 40px;
+    margin: 0;
+    color: #151618;
+    z-index: 2;
+}
+.knowText {
+    position: relative;
+    display: block;
+    width: 580px;
+    text-align: left;
+    top: 90px;
+    left: 200px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300; 
+    line-height: 30px;
+    margin: 0;
+    color: #151618;  
+}
+.decoTea {
+    position: absolute;
+    right: 0;
 }
