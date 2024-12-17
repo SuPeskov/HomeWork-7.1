@@ -329,7 +329,6 @@ a {
     top: 2917px;
     margin: auto;
     background-color: rgba(247, 242, 234, 1);
-    padding-top: 60px;
 }
 .knowTitle {
     position: relative;
@@ -348,7 +347,7 @@ a {
     display: block;
     width: 580px;
     text-align: left;
-    top: 90px;
+    top: 158px;
     left: 200px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
