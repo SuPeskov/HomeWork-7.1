@@ -360,3 +360,45 @@ a {
     position: absolute;
     right: 0;
 }
+.joinContainer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 580px;
+    height: 118px;
+    left: 820px;
+    top: 0;
+}
+.buttonJoin {
+    position: relative;
+    top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    width: 116px;
+    height: 51px;
+    background: #FFFFFF;
+    cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;   
+}
+.join {
+    position: relative;
+    display: flex;
+    width: 439px;
+    height: 49px;
+    background-color: rgba(184, 181, 139, 0);
+    border: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-bottom: 1px solid rgba(184, 181, 139, 1);
+}
+.join::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300; 
+    line-height: 0.2px;
+    color: rgba(184, 181, 139, 1);
+    padding-left: 15px;
+    vertical-align: bottom;
+}
