@@ -626,3 +626,11 @@ a {
     position: relative;
     top: 40px;
 }
+.footerContainer {
+    height: 593px;
+    width: 1600px;
+    background-color: rgba(247, 242, 234, 1);
+    position: absolute;
+    top: 3921px;
+    display: flex;
+}
