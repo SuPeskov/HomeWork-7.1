@@ -659,3 +659,23 @@ a {
     font-size: 16px;
     font-weight: 300;
 }
+.navCompany {
+    width: 155px;
+    height: 353px;
+    position: relative;
+    left: 413px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.companyContainer {
+    width: 155px;
+    height: 274px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
