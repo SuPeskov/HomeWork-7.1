@@ -634,3 +634,28 @@ a {
     top: 3921px;
     display: flex;
 }
+.navProducts {
+    width: 97px;
+    height: 269px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.productsContainer {
+    width: 97px;
+    height: 190px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.productsNavText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
