@@ -290,7 +290,7 @@ a {
     width: 704px;
     font-family: "Cormorant", sans-serif;
     font-size: 40px;
-    font-weight: 400; 
+    font-weight: 300; 
     font-style: italic;
     text-align: center;
     margin: 0;
@@ -330,7 +330,6 @@ a {
     position: relative;
     justify-content: space-between;
     width: 1200px;
-    height: 247px;
     top: 60px;
 }
 .collectionName {
