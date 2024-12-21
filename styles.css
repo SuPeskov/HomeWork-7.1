@@ -492,6 +492,7 @@ a {
 }
 .knowTitle {
     position: relative;
+    width: 400px;
     font-family: "Cormorant", sans-serif;
     font-size: 40px;
     font-weight: 400; 
