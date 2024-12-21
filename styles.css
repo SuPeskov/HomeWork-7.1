@@ -679,3 +679,28 @@ a {
     justify-content: space-between;
     align-items: first baseline;
 }
+.messageOwner {
+    width: 269px;
+    height: 162px;
+    margin: 0;
+    position: relative;
+    left: 568px;
+    top: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.messageOwnerText {
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 300;
+font-style: italic;
+margin: 0;
+}
+.ownerName {
+    width: 129px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
