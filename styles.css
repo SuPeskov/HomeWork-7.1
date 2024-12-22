@@ -194,10 +194,7 @@ a {
     src: url(https://fonts.gstatic.com/s/cormorant/v21/H4clBXOCl9bbnla_nHIq75u9.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-.page-wrapper {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+
 .topMenu {
     position: relative;
     width: 1200px;
@@ -325,7 +322,7 @@ a {
     color: #151618;
     z-index: 2;
 }
-.choice {
+.choiceCollection {
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -351,6 +348,13 @@ a {
     padding-top: 60px;
     height: 337px;
     background-color: rgba(247, 242, 234, 0.5);
+}
+.choice {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1200px;
+    top: 60px;
 }
 .textContainer {
     width: 280px;
@@ -773,4 +777,76 @@ line-height: 21.79px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .bannerText1 {
+        left: 19px;
+    }
+    .bannerText2 {
+        left: 19px;
+    }
+    .collection {
+        width: 100%;
+    }
+    .choiceCollection {
+        flex-wrap: wrap;
+        width: 636px;
+        justify-content: center;
+    }
+    .reviews {
+        top: 1848px;
+        width: 100%;
+        height: 536px;
+    }
+    .choice {
+        flex-wrap: wrap;
+        width: 636px;
+        justify-content: space-around;
+    }
+}  
+@media (max-width: 480px) {
+    .bannerText1 {
+        left: 9px;
+        font-size: 40px;
+        width: 450px;
+        top: 276px;
+    }
+    .bannerText2 {
+        left: 9px;
+        width: 450px;
+        top: 392px;
+    }
+    .quote {
+        font-family: Open Sans;
+        font-size: 16px;
+        width: 376px;
+    }
+    .marker {
+        width: 118px;
+        height: 22px;
+        left: 50px;
+        top: -20px;
+    }
+    .choiceCollection {
+        flex-wrap: wrap;
+        width: 480px;
+        justify-content: center;
+    }
+    .reviews {
+        top: 2095px;
+    }
+    .choice {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .textContainer {
+        width: 220px;
+    }
+}
+@media (min-width: 1200px) {
+    .page-wrapper {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 }
