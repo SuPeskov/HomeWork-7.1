@@ -781,6 +781,17 @@ line-height: 21.79px;
     justify-content: space-between;
 }
 @media (max-width: 768px) {
+    .topMenu {
+        width: 100%;
+    }
+    .gradient {
+        width: 100%;
+    }
+    .banner {
+        height: 504px;
+        width: 100%;
+        object-fit: cover;
+    }
     .bannerText1 {
         left: 19px;
     }
@@ -862,6 +873,7 @@ line-height: 21.79px;
     .footerContainer {
         top: 4837px;
         height: 631px;
+        width: 100%;
     }
     .navProducts {
         top: 50px;
@@ -877,7 +889,8 @@ line-height: 21.79px;
     }
     .touch {
         top: 262px;
-        left: -86px;
+        left: 434px;
+        position: absolute;
     }
     .companyAndPay {
         bottom: 10px;
