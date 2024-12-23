@@ -282,7 +282,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 150px;
+    top: 30px;
 }
 .quote {
     position: relative;
