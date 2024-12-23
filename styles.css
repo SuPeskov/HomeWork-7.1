@@ -906,6 +906,9 @@ line-height: 21.79px;
         left: 9px;
         width: 450px;
     }
+    .quioteContainer {
+        top: -25px;
+    }
     .quote {
         font-family: Open Sans;
         font-size: 16px;
@@ -917,21 +920,29 @@ line-height: 21.79px;
         left: 50px;
         top: -20px;
     }
+    .collection {
+        top: 20px;
+    }
     .choiceCollection {
         flex-wrap: wrap;
         width: 480px;
         justify-content: center;
     }
     .reviews {
-        top: 2095px;
+        top: 135px;
+        padding-top: 50px;
     }
     .choice {
+        top: 50px;
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
     }
     .textContainer {
         width: 220px;
+    }
+    .teaBlog {
+        top: 195px;
     }
 }
 @media (min-width: 1200px) {
