@@ -306,13 +306,11 @@ a {
     z-index: 1;
 }
 .collection {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 1096px;
-    width: 1600px;
-    height: 500px;
+    top: 120px;
 }
 .collectionTitle {
     position: relative;
