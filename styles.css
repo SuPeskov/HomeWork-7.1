@@ -783,9 +783,10 @@ line-height: 21.79px;
         width: 100%;
     }
     .banner {
-        height: 504px;
+        height: 500px;
         width: 100%;
         object-fit: cover;
+        object-position: left;
     }
     .bannerText1 {
         left: 19px;
@@ -900,12 +901,10 @@ line-height: 21.79px;
         left: 9px;
         font-size: 40px;
         width: 450px;
-        top: 276px;
     }
     .bannerText2 {
         left: 9px;
         width: 450px;
-        top: 392px;
     }
     .quote {
         font-family: Open Sans;
