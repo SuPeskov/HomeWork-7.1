@@ -206,7 +206,7 @@ a {
 }
 .logo {
     position: relative;
-    top: o;
+    top: 0;
     left: 0;
 }
 .navText {
@@ -236,7 +236,7 @@ a {
 	display: inline-block;
 	position: relative;    
     margin: auto;
-    top: 30px;
+    top: 58px;
 }
 .gradient:after {
 	content: "";
@@ -251,9 +251,9 @@ a {
     z-index: 1;
 }
 .bannerText1 {
-    position: absolute;
+    position: relative;
     width: 790px;
-    top: 254px;
+    bottom: 186px;
     left: 200px;
     color: #FFFFFF;
     margin: 0;
@@ -262,11 +262,12 @@ a {
     font-weight: 400;
     line-height: 1;
     z-index: 2;
+    border: 2px black;
 }
 .bannerText2 {
-    position: absolute;
+    position: relative;
     width: 558px;
-    top: 404px;
+    bottom: 164px;
     left: 200px;
     color: #FFFFFF;
     margin: 0;
@@ -274,6 +275,7 @@ a {
     font-size: 24px;
     font-weight: 400;
     z-index: 2;
+    border: 2px black;
 }
 .quioteContainer {
     position: relative;
