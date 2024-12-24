@@ -873,6 +873,7 @@ line-height: 21.79px;
     .footerContainer {
         top: 1240px;
         height: 631px;
+        width: 100%;
     }
     .navProducts {
         top: 50px;
@@ -894,6 +895,7 @@ line-height: 21.79px;
     .companyAndPay {
         bottom: 10px;
         left: 64px;
+        width: 305px;
     }
 }  
 @media (max-width: 480px) {
@@ -1013,5 +1015,48 @@ line-height: 21.79px;
     .footerContainer {
         top: 480px;
         height: 853px;
+    }
+    .navProducts {
+        left: 10px;
+    }
+    .navCompany {
+        left: 143px;
+    }
+    .messageOwner {
+        top: 433px;
+        width: 460px;
+        height: 92px;
+        position: absolute;
+        left: 5px;
+    }
+    .ownerName {
+        width: 300px;
+    }
+    .touch {
+        top: 575px;
+        width: 460px;
+        left: 10px;
+    }
+    .touchText {
+        top: 20px;
+        text-align: center;
+        height: 36px;
+    }
+    .touchLogo {
+        position: absolute;
+        top: 56px;
+        left: 31px;
+    }
+    .contactsContainer {
+        top: 60px;
+        left: 105px;
+    }
+    .socialNetwork {
+        top: 20px;
+        left: 270px;
+    }
+    .companyAndPay {
+        width: 427px;
+        left: 10px;
     }
 }
