@@ -944,6 +944,8 @@ line-height: 21.79px;
     .teaBlog {
         top: 195px;
         width: 460px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .blogContainer {
         height: 702px;
@@ -970,5 +972,32 @@ line-height: 21.79px;
     .blog4 {
         height: 153px;
         width: 460px;
+    }
+    .knowMore {
+        top: 380px;
+        height: 415px;
+        align-items: center;
+    }
+    .decoTea {
+        display: none;
+    }
+    .knowTitle {
+        top: 50px;
+    }
+    .knowText {
+        font-size: 13px;
+        line-height: 17.7px;
+        width: 460px;
+        top: 78px;
+    }
+    .joinContainer {
+        width: 460px;
+        top: 110px;
+    }
+    .join {
+        width: 324px;
+    }
+    .checkJoin {
+        width: 100%;
     }
 }
