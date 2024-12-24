@@ -943,11 +943,32 @@ line-height: 21.79px;
     }
     .teaBlog {
         top: 195px;
+        width: 460px;
     }
-}
-@media (min-width: 1200px) {
-    .page-wrapper {
-        max-width: 1600px;
-        margin: 0 auto;
+    .blogContainer {
+        height: 702px;
+        width: 460px;
+    }
+    .blogImage {
+        width: 230px;
+        object-fit: contain;
+    }
+    .blog1 {
+        height: 153px;
+        width: 460px;
+    }
+    .blog2 {
+        height: 153px;
+        width: 460px;
+        top: 183px;
+    }
+    .blog3 {
+        height: 153px;
+        width: 460px;
+        bottom: 183px;
+    }
+    .blog4 {
+        height: 153px;
+        width: 460px;
     }
 }
