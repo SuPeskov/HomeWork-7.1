@@ -1004,4 +1004,14 @@ line-height: 21.79px;
         top: 440px;
         height: 926px;
     }
+    .prioritiseContainer {
+        top: 20px;
+        height: 848px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .footerContainer {
+        top: 480px;
+        height: 853px;
+    }
 }
