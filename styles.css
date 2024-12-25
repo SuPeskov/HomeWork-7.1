@@ -16,6 +16,13 @@ a {
     text-decoration: none;
     color: #151618;
 }
+footer {
+    position: relative;
+    height: 593px;
+    background-color: rgba(247, 242, 234, 1);
+    top: 1050px;
+    display: flex;
+}
 /* greek */
 @font-face {
     font-family: 'Open Sans';
@@ -496,6 +503,22 @@ a {
     margin: auto;
     background-color: rgba(247, 242, 234, 1);
 }
+.knowContainer2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.knowContainer {
+    width: 1200px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 268px;
+    position: relative;
+}
 .knowTitle {
     position: relative;
     width: 400px;
@@ -503,9 +526,8 @@ a {
     font-size: 40px;
     font-weight: 400; 
     text-align: left;
-    left: 200px;
-    bottom: 318px;
     margin: 0;
+    bottom: 50px;
     color: #151618;
     z-index: 2;
 }
@@ -514,8 +536,6 @@ a {
     display: block;
     width: 580px;
     text-align: left;
-    bottom: 268px;
-    left: 200px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: 300; 
@@ -536,8 +556,6 @@ a {
     position: relative;
     width: 580px;
     height: 118px;
-    left: 820px;
-    bottom: 390px;
 }
 .layoutJoin {
     display: flex;
@@ -637,17 +655,16 @@ a {
 }
 .footerContainer {
     position: relative;
-    height: 593px;
-    background-color: rgba(247, 242, 234, 1);
-    top: 1050px;
+    top: 100px;
     display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navProducts {
     width: 97px;
     height: 269px;
     position: relative;
-    left: 200px;
-    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -671,8 +688,7 @@ a {
     width: 155px;
     height: 353px;
     position: relative;
-    left: 413px;
-    top: 100px;
+    left: 213px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -692,8 +708,8 @@ a {
     height: 162px;
     margin: 0;
     position: relative;
-    left: 568px;
-    top: 179px;
+    left: 368px;
+    top: 79px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -717,8 +733,7 @@ margin: 0;
     height: 287px;
     margin: 0;
     position: relative;
-    left: 609px;
-    top: 100px;
+    left: 409px;
     display: flex;
     flex-direction: column;
     font-family: Open Sans;
