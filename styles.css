@@ -21,7 +21,6 @@ footer {
     height: 593px;
     background-color: rgba(247, 242, 234, 1);
     top: 1050px;
-    display: flex;
 }
 /* greek */
 @font-face {
@@ -657,11 +656,22 @@ footer {
 }
 .footerContainer {
     position: relative;
-    top: 100px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+.footerLeft {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.footerRight {
+    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 .navProducts {
     width: 97px;
@@ -670,6 +680,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    top: 100px;
 }
 .productsContainer {
     width: 97px;
@@ -694,6 +705,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    top: 100px;
 }
 .companyContainer {
     width: 155px;
@@ -710,8 +722,8 @@ footer {
     height: 162px;
     margin: 0;
     position: relative;
-    left: 368px;
-    top: 79px;
+    right: 41px;
+    top: 179px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -735,7 +747,7 @@ margin: 0;
     height: 287px;
     margin: 0;
     position: relative;
-    left: 409px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     font-family: Open Sans;
@@ -779,18 +791,18 @@ margin: 0;
     align-items: center;
 }
 .companyAndPay {
-    position: absolute;
+    position: relative;
     width: 466px;
     height: 22px;
-    left: 200px;
-    bottom: 18px;
+    left: 12.5%;
+    top: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: Open Sans;
-font-size: 16px;
-font-weight: 300;
-line-height: 21.79px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.79px;
 }
 .payContainer {
     width: 156px;
