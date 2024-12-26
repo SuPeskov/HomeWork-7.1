@@ -207,7 +207,9 @@ footer {
 }
 .topMenu {
     position: relative;
-    width: 1200px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     height: 142px;
     top: 30px;
     margin: auto;
@@ -220,7 +222,7 @@ footer {
     left: 0;
 }
 .navText {
-    width: 582px;
+    width: 48.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -338,7 +340,7 @@ footer {
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 1200px;
+    width: 75%;
     top: 60px;
 }
 .collectionName {
