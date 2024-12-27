@@ -204,11 +204,12 @@ footer {
     max-width: 1600px;
     margin: 0 auto;
 }
+.burgerMenu {
+    display: none;
+}
 .topMenu {
     position: relative;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
     height: 142px;
     top: 30px;
     margin: auto;
@@ -812,10 +813,24 @@ margin: 0;
 }
 @media (max-width: 768px) {
     .topMenu {
-        width: 100%;
+        width: 640px;
+        height: 105px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .burgerMenu {
+        display: inline;
+        position: relative;
+    }
+    .logo {
+        left: 40px;
     }
     .navText {
         display: none;
+    }
+    .navIco {
+        width: 130px;
     }
     .gradient {
         width: 100%;
@@ -862,7 +877,7 @@ margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        top: 610px;
+        top: 380px;
         width: 100%;
     }
     .blogContainer {
@@ -876,29 +891,34 @@ margin: 0;
         bottom: 210px;
     }
     .knowMore {
-        top: 850px;
+        top: 620px;
         height: 525px;
         align-items: center;
     }
     .decoTea {
-        bottom: 0;
+        top: 106px;
+    }
+    .knowContainer {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        bottom: 360px;
     }
     .knowTitle {
         width: 100%;
         text-align: center;
-        left: auto;
+        bottom: 0;
+
     }
     .knowText {
         text-align: center;
-        top: 108px;
-        left: 0;
+        top: 60px;
     }
     .joinContainer {
-        top: 180px;
-        left: auto;
+        top: 120px;
     }
     .prioritise {
-        top: 960px;
+        top: 740px;
     }
     .prioritise-1 {
         height: 178px;
@@ -908,30 +928,32 @@ margin: 0;
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    .footerContainer {
-        top: 1240px;
+    footer {
+        top: 1020px;
         height: 631px;
-        width: 100%;
+    }
+    .footerContainer {
+        width: 640px;
     }
     .navProducts {
         top: 50px;
-        left: 64px;
     }
     .navCompany {
         top: 50px;
-        left: 116px;
+        left: 52px;
+    }
+    .footerRight {
+        flex-direction: column;
     }
     .messageOwner {
         top: 50px;
-        left: 183px;
+        right: 0;
     }
     .touch {
-        top: 262px;
-        left: 434px;
-        position: absolute;
+        top: 102px;
     }
     .companyAndPay {
-        bottom: 10px;
+        top: 150px;
         left: 64px;
         width: 305px;
     }
