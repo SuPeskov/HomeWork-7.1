@@ -849,6 +849,57 @@ margin: 0;
         top: 20px;
         left: 150px;
     }
+    .hiddenTopNav {
+        position: relative;
+        width: 100%;
+        height: 265px;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Cormorant;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 21.79px;
+    }
+    .hiddenSeparate {
+        width:300px;
+        height: 2px; 
+        border: none;
+        background-color: rgba(247, 242, 234, 1);
+        top: 100px;
+        position: relative;
+    }
+    .hiddenMiddleNav {
+        position: relative;
+        width: 100%;
+        height: 124px;
+        top: 158px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21.79px;
+    }
+    .hiddenBottomNav {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        top: 220px;
+        background-color: rgba(247, 242, 234, 1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21.79px;
+    }
     .topMenu {
         width: 640px;
         height: 105px;
