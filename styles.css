@@ -210,9 +210,8 @@ footer {
 #checkbox {
     display: none;
 }
-#checkbox:checked ~ nav ul {
-    max-height: 200px;
-    padding: 15px 0;
+#checkbox:checked ~ .hiddenTopMenu {
+    padding: 710px 0;
     transition: all 0.5s;
 }
 .burgerMenu {
@@ -830,7 +829,7 @@ margin: 0;
         display: flex;
         position: absolute;
         width: 100%;
-        top: 0;
+        top: -720px;
     }
     .hiddenContainer {
         display: flex;
